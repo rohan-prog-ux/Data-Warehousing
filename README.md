@@ -1,5 +1,4 @@
-# Data-Warehousing
-Designed and implemented a star schema database using PySpark to enable efficient data warehousing and analysis of historical data.
+# Designed and implemented a star schema database using PySpark to enable efficient data warehousing and analysis of historical data.
 
 
 This SQL script creates a schema named "star-schema" and several tables inside that schema including "customers", "employees", "products", "fact_starschema", and "TimeDimension".
