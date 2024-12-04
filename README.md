@@ -15,4 +15,8 @@ In the given MySQL script, the star-schema database is created with five tables:
 4.	Create the fact table: The fact table, fact_northwind, can be created by combining the relevant columns from the Orders table with foreign keys to the dimension tables. For example, the fk_customerNumber column in the fact table would correspond to the customerNumber column in the Customers table.
 5.	Populate the tables: Data can be extracted from the Northwind database and inserted into the appropriate tables in the star-schema database.
 Note that denormalization is a trade-off between query performance and data redundancy. Combining tables increases data redundancy, which can lead to data inconsistencies if not managed properly. Therefore, it is important to carefully consider the requirements and constraints of the database before denormalizing it.
-![image](https://github.com/user-attachments/assets/aa1d747f-b270-450d-9e2a-578f629e637a)
+
+
+
+![image](https://github.com/user-attachments/assets/91aee47b-5225-4d04-8572-cbe0e9ce98a2)
+
